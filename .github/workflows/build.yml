@@ -8,9 +8,8 @@ on:
   workflow_call:
     inputs:
       env_file:
-        description: "Env file to select image (.env.fixed or .env.latest)"
+        description: "Which env file to use (.env.stable or .env.latest)"
         required: false
-        default: ".env.stable"
         type: string
 
 permissions:
@@ -23,16 +22,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Pick the env file:
+      # - Default to .env.stable for PR/push
+      # - If invoked via workflow_call and an env_file was provided, use it
+      - name: Select env file
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_call" && -n "${{ inputs.env_file }}" ]]; then
+            echo "ENV_FILE=${{ inputs.env_file }}" >> "$GITHUB_ENV"
+          else
+            echo "ENV_FILE=.env.stable" >> "$GITHUB_ENV"
+          fi
+          echo "Using env file: $ENV_FILE"
+
       - name: Reset compose state
         run: |
           docker compose down --volumes --remove-orphans || true
           rm -rf build && mkdir -p build
 
       - name: Build (to named volume)
-        run: docker compose --env-file "${{ inputs.env_file }}" run --rm l2-build
+        run: docker compose --env-file "$ENV_FILE" run --rm l2-build
 
       - name: Export to ./build (host-owned files)
-        run: docker compose --env-file "${{ inputs.env_file }}" run --rm l2-export | tar -C build -xf -
+        run: docker compose --env-file "$ENV_FILE" run --rm l2-export | tar -C build -xf -
 
       - name: List build output
         run: ls -la build | head -n 200
