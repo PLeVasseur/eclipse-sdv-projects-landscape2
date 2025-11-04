@@ -8,6 +8,8 @@ foundation: DEMO
 
 url: http://127.0.0.1:8000
 
+base_path: /eclipse-sdv-projects-landscape2
+
 colors:
   color1: "rgba(0, 107, 204, 1)"
   color2: "rgba(255, 0, 170, 1)"
