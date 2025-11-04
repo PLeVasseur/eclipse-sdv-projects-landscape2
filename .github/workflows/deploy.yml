@@ -31,6 +31,9 @@ jobs:
       - name: Verify artifacts
         run: ls -la build
 
+      - name: SPA fallback for GitHub Pages
+        run: cp build/index.html build/404.html
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
