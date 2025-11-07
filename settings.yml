@@ -54,7 +54,7 @@ groups:
 
 header:
   links:
-    github: "https://sdv.eclipse.org/"
+    github: "https://github.com/enterprises/eclipse-foundation/organizations"
   logo: "https://sdv.eclipse.org/images/logo/sdv-logo-color.svg"
 
 screenshot_width: 1500
