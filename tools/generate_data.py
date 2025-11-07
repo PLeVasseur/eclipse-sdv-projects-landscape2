@@ -5,7 +5,7 @@ generate_data.py
 This script reads project data from the Eclipse SDV API or from a local
 JSON file and generates a `data.yml` file in the Landscape2 configuration
 format. The generated YAML can then be used as input for the
-`PLeVasseur/eclipse‑sdv‑projects‑landscape2` repository.
+`eclipse‑sdv‑projects‑landscape2` repository.
 
 Usage::
 
@@ -73,7 +73,8 @@ def build_landscape_data(
     def download_logo(url: str, dest: Path) -> str:
         """Download a logo from a URL and save it into dest.
 
-        Returns the path to the saved file. On failure, returns a placeholder name.
+        Returns the file name of the saved logo. On failure, returns the
+        placeholder file name. The file is saved in ``dest``.
         """
         try:
             # Use last segment of URL as filename, strip query parameters
@@ -83,9 +84,9 @@ def build_landscape_data(
             file_path = dest / file_name
             with file_path.open("wb") as f:
                 f.write(response.content)
-            return str(file_path)
+            return file_name
         except Exception:
-            return str(dest / "placeholder.svg")
+            return "placeholder.svg"
 
     for proj in projects:
         # Determine category and subcategory names
@@ -129,13 +130,9 @@ def build_landscape_data(
         # Handle logo
         logo_url = proj.get("logo")
         if logo_dir is not None and logo_url:
-            # Download logo and store relative path
-            path = download_logo(logo_url, logo_dir)
-            # Try to make path relative to current working directory
-            try:
-                item["logo"] = str(Path(path).relative_to(Path.cwd()))
-            except Exception:
-                item["logo"] = path
+            # Download logo and use only the file name in YAML
+            file_name = download_logo(logo_url, logo_dir)
+            item["logo"] = file_name
         else:
             # Without download, keep full URL or fallback
             if logo_url:
