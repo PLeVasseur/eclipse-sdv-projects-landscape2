@@ -12,14 +12,14 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.adaaa
       project: Archived
       repo_url: https://github.com/eclipse/adaaa
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/archived.png
+      logo: logos/archived.png
     - name: Eclipse Ambient Light Services
       description: The Eclipse Ambient Light Services showcase vizualizes possible
         new lighting concepts which are adaptive to different specific driving scenarios,
         like e.g. coming and leaving but also further options...
       homepage_url: https://projects.eclipse.org/projects/automotive.ambientlight
       project: Incubating
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse Ankaios
       description: Eclipse Ankaios manages multiple nodes and virtual machines with
         a single unique API in order to start, stop, configure, and update containers
@@ -27,7 +27,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.ankaios
       project: Incubating
       repo_url: https://github.com/eclipse-ankaios/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/Ankaios__logo_for_light_bgrd_clipped.png?itok=EYM6qc_o
+      logo: logos/Ankaios__logo_for_light_bgrd_clipped.png
     - name: Eclipse ArchE
       description: Eclipse ArchE (Architecture Enabler) provides a tool for Architecture
         Modeling following an holistic Model-Based-Systems-Engineering (MBSE) approach
@@ -35,7 +35,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.arche
       project: Incubating
       repo_url: https://github.com/eclipse-arche/arche
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/arche_splash.png?itok=7wXRRMp3
+      logo: logos/arche_splash.png
     - name: Eclipse Autowrx
       description: Eclipse Autowrx is the open source implementation of digital.auto
         (http://digital.auto), an industry-wide initiative enabling the automotive
@@ -43,7 +43,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.autowrx
       project: Incubating
       repo_url: https://github.com/eclipse-autowrx/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse Backend function Bindings (BfB)
       description: 'The Eclipse BfB project provides a protocol and technology agnostic
         interface specification in the ecosystem of mobility and automotive applications.
@@ -51,7 +51,7 @@ categories:
         The Eclipse BfB specification is maintained in a...'
       homepage_url: https://projects.eclipse.org/projects/automotive.bfb
       project: Archived
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/archived.png
+      logo: logos/archived.png
     - name: Eclipse BlueChi™
       description: Eclipse BlueChi™ is a deterministic multi-node service controller
         with a focus on highly regulated ecosystems. It is written in C and integrates
@@ -59,7 +59,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.bluechi
       project: Regular
       repo_url: https://github.com/eclipse-bluechi/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/bluechi-logo-horiz-200.png?itok=_c3YVzO2
+      logo: logos/bluechi-logo-horiz-200.png
     - name: Eclipse Chariott
       description: The Eclipse Chariott project aims to simplify and enhance in-vehicle
         software developer productivity by providing a metadata-driven middleware/abstraction
@@ -67,14 +67,14 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.chariott
       project: Incubating
       repo_url: https://github.com/eclipse-chariott/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/chariott_image.jpg?itok=Z5abBh7T
+      logo: logos/chariott_image.jpg
     - name: Eclipse SDV Developer Console
       description: Eclipse SDV Developer Console (DCO) integrates necessary sources
         for software lifecycle management and there by optimizes the complete process
         from development to release of software. The core of DCO...
       homepage_url: https://projects.eclipse.org/projects/automotive.dco
       project: Incubating
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse eCAL (enhanced Communication Abstraction Layer)
       description: Eclipse eCAL™ (enhanced Communication Abstraction Layer) provides
         a middleware that enables scalable, high performance interprocess communication
@@ -82,7 +82,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.ecal
       project: Incubating
       repo_url: https://github.com/eclipse-ecal/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/ecal_square.png?itok=N66mGenN
+      logo: logos/ecal_square.png
     - name: Eclipse Heimlig
       description: 'Eclipse Heimlig is a Hardware Security Module (HSM) firmware for
         embedded platforms written in Rust.
@@ -92,7 +92,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.heimlig
       project: Incubating
       repo_url: https://github.com/eclipse-heimlig/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse Ibeji
       description: The automotive and mobility ecosystem is facing major challenges
         in modernizing and streamlining in-vehicle software development as well as
@@ -100,7 +100,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.ibeji
       project: Incubating
       repo_url: https://github.com/eclipse-ibeji/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/ibeji.png?itok=DHa_jEHt
+      logo: logos/ibeji.png
     - name: Eclipse Kuksa
       description: 'The open Eclipse KUKSA™ project aims to provide shared building
         blocks for the Software Defined Vehicles that can be shared across the industry.
@@ -109,7 +109,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.kuksa
       project: Incubating
       repo_url: https://github.com/eclipse/kuksa.val
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/kuksa%20mix.png?itok=fOjO4ngo
+      logo: logos/kuksa%20mix.png
     - name: Eclipse Leda
       description: 'In the ambition to build a technology ecosystem for software-defined
         vehicle, one of the main challengs will be the combination of the diverse
@@ -117,14 +117,14 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.leda
       project: Incubating
       repo_url: https://github.com/eclipse-leda/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/logo_02_rgb.png?itok=YrXjiAlP
+      logo: logos/logo_02_rgb.png
     - name: Eclipse Leda Incubator
       description: Eclipse Leda Incubator provides a place for experimental components
         from the software-defined vehicle ecosystem.
       homepage_url: https://projects.eclipse.org/projects/automotive.leda.ledaincubator
       project: Incubating
       repo_url: https://github.com/eclipse-leda/leda-contrib-self-update-agent
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse MoEc
       description: 'Eclipse MoEc provides an open software development kit (SDK) for
         infrastructure-based planning, motion, parking and charging solutions within
@@ -133,7 +133,7 @@ categories:
         The MoEc SDK...'
       homepage_url: https://projects.eclipse.org/projects/automotive.moec
       project: Archived
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/archived.png
+      logo: logos/archived.png
     - name: Eclipse Muto
       description: Eclipse Muto provides an adaptive framework and a runtime platform
         for dynamically composable model-driven ROS software stacks. Eclipse Muto
@@ -141,7 +141,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.muto
       project: Incubating
       repo_url: https://github.com/eclipse-muto/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/Muto%20Winner%20Transparent.png?itok=l103jDCm
+      logo: logos/Muto%20Winner%20Transparent.png
     - name: Eclipse OpenBSW
       description: The project provides an embedded basic software (BSW) stack for
         microcontrollers written in C++ (language features up to C++14 are used). It
@@ -149,7 +149,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.openbsw
       project: Incubating
       repo_url: https://github.com/eclipse-openbsw/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse openDuT
       description: Eclipse openDuT automates the testing and validation process for
         automotive software and applications. This includes offering a framework for
@@ -157,7 +157,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.opendut
       project: Incubating
       repo_url: https://github.com/eclipse-opendut/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/logo_light.png?itok=mKVECxw-
+      logo: logos/logo_light.png
     - name: Eclipse OpenXilEnv
       description: 'Eclipse OpenXilEnv is a lightweight SIL/HIL environment that allows
         running embedded software functions on a PC without a target platform and
@@ -167,7 +167,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.openxilenv
       project: Incubating
       repo_url: https://github.com/eclipse-openxilenv/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse p3com
       description: 'Eclipse p3com enables arbitrary communication interfaces through
         a convenient and modern high level API while exploiting full HW capabilities.
@@ -183,7 +183,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.p3com
       project: Incubating
       repo_url: https://github.com/eclipse-p3com/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse Pullpiri
       description: The main goal of Eclipse Pullpiri project is to develop an efficient vehicle
         service orchestrator framework to realize the potential benefits of cloud
@@ -191,7 +191,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.pullpiri
       project: Incubating
       repo_url: https://github.com/eclipse-pullpiri/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse Safe Open Vehicle Core
       description: The Eclipse Safe Open Vehicle Core project aims to develop an open-source
         core stack for Software Defined Vehicles (SDVs), specifically targeting embedded
@@ -199,7 +199,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.score
       project: Incubating
       repo_url: https://github.com/eclipse-score/.github
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png
+      logo: logos/incubating.png
     - name: Eclipse SDV Blueprints
       description: The Eclipse SDV Blueprints project hosts different blueprints of
         how to apply technologies developed in the scope of the projects of the Eclipse
@@ -207,7 +207,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.sdv-blueprints
       project: Incubating
       repo_url: https://github.com/eclipse-sdv-blueprints/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/blueprints.png?itok=nYMmnsj2
+      logo: logos/blueprints.png
     - name: Eclipse SommR
       description: 'Eclipse SommR provides an automotive grade implementation of the
         SomeIP specification for embedded Linux systems together with the required
@@ -216,7 +216,7 @@ categories:
         Eclipse SommR fosters...'
       homepage_url: https://projects.eclipse.org/projects/automotive.sommr
       project: Archived
-      logo: https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/archived.png
+      logo: logos/archived.png
     - name: Eclipse uProtocol
       description: Eclipse uProtocol provides a transport agnostic, layered communication
         protocol that is deployment, OS, and device (vehicle, cloud, mobile phone,
@@ -224,7 +224,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.uprotocol
       project: Incubating
       repo_url: https://github.com/eclipse-uprotocol/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/uprotocol_img.png?itok=ROCAxLtr
+      logo: logos/uprotocol_img.png
     - name: Eclipse Velocitas
       description: 'Eclipse Velocitas™ provides an end-to-end, scalable, modular and
         open source development toolchain for creating containerized and non-containerized
@@ -234,7 +234,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.velocitas
       project: Incubating
       repo_url: https://github.com/eclipse-velocitas/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/logo_02_rgb_0.png?itok=V5G-CczV
+      logo: logos/logo_02_rgb_0.png
     - name: Eclipse Symphony
       description: Eclipse Symphony enables end-to-end orchestration experience and
         addresses it as a distinct concern. Its objective is to provide an easy-to-adopt,
@@ -242,7 +242,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/iot.symphony
       project: Incubating
       repo_url: https://github.com/eclipse-symphony/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/symphony%20icon_smalltext.png?itok=lvjfYmKu
+      logo: logos/symphony%20icon_smalltext.png
     - name: Eclipse ThreadX
       description: 'Eclipse ThreadX® provides a vendor-neutral, open source, safety
         certified OS for real-time applications published under a permissive license.
@@ -254,7 +254,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/iot.threadx
       project: Incubating
       repo_url: https://github.com/eclipse-threadx/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/ThreadX-Color-portrait.png?itok=qNAU4FKm
+      logo: logos/ThreadX-Color-portrait.png
     - name: Eclipse Zenoh
       description: Eclipse Zenoh provides is a stack  designed to (1) minimize network
         overhead, (2) support extremely constrained devices, (3) supports devices
@@ -262,4 +262,4 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/iot.zenoh
       project: Incubating
       repo_url: https://github.com/eclipse-zenoh/.github
-      logo: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/Zenoh%20-%20icon%20-%20dark.png?itok=u82tSdNI
+      logo: logos/Zenoh%20-%20icon%20-%20dark.png

@@ -37,3 +37,9 @@ docker compose --env-file .env.latest run --rm l2-build
 ```
 
 [Landscape2]: https://github.com/cncf/landscape2
+
+# Collect new data from Eclipse Projects API 
+Hint: execute in the root folder
+```shell
+python ./tools/generate_data.py 
+```
