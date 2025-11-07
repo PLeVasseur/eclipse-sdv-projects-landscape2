@@ -5,77 +5,286 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
-  - name: Category 1
-    subcategories:
-      - name: Subcategory 1-1
-        items:
-          - name: Item 1
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 1
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 2
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 2
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 3
-            description: This is the description of item 3
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-      - name: Subcategory 1-2
-        items:
-          - name: Item 4
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 4
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 5
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 5
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            repo_url: https://github.com/cncf/landscape2
-  - name: Category 2
-    subcategories:
-      - name: Subcategory 2-1
-        items:
-          - name: Item 6
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 6
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 7
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 7
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 8
-            description: This is the description of item 8
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-      - name: Subcategory 2-2
-        items:
-          - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 9
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-
+- name: User Interface
+  subcategories:
+  - name: Lighting
+    items:
+    - name: Eclipse Ambient Light Services
+      description: Demonstrates innovative ambient lighting concepts for vehicles
+        using AUTOSAR components. The project plays welcome and goodbye animation
+        sequences and provides tools for creating and using lighting datasets to adapt
+        lighting to driving scenarios【841436737515348†L239-L248】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.ambient-light-services
+      project: Incubating
+- name: Orchestration
+  subcategories:
+  - name: Runtime
+    items:
+    - name: Eclipse Ankaios
+      description: A lightweight orchestration system that manages multiple nodes
+        and virtual machines with a unified API, allowing containers and workloads
+        to be started, stopped, configured and updated. It follows the Unix philosophy,
+        integrates with existing init systems and provides a CLI; optionally integrates
+        with cloud services for fleet software updates【496274626560636†L239-L266】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.ankaios
+      project: Incubating
+  - name: API
+    items:
+    - name: Eclipse Symphony
+      description: Enables end‑to‑end solution orchestration across diverse devices
+        and service vendors. Symphony provides an API for managing workloads involving
+        multiple device types at multiple locations and lets adopters use existing
+        systems unchanged. Its architecture separates concerns into a unified object
+        model, an orchestration API and providers that encapsulate platform‑specific
+        operations, codifying consistent workflows across systems【389407787531070†L239-L258】.
+      homepage_url: https://projects.eclipse.org/projects/iot.symphony
+      project: Incubating
+- name: Architecture
+  subcategories:
+  - name: MBSE
+    items:
+    - name: Eclipse ArchE
+      description: An architecture modelling tool that supports a holistic model-based
+        systems engineering approach. It serves as a single source of truth for system
+        architecture, connecting resource estimation, timing, safety and security
+        analyses. The tool supports diff/branch/merge and integration into the software
+        lifecycle【482685076409328†L239-L252】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.arche
+      project: Incubating
+- name: Digital Services
+  subcategories:
+  - name: Business
+    items:
+    - name: Eclipse Autowrx
+      description: Implements the digital.auto initiative, providing a digital‑first
+        approach to next‑generation mobility services. Co‑initiated by Bosch, Dassault Systèmes
+        and LeanIX, it combines standards and methods to translate technology into
+        business value and supports digital value creation for automotive OEMs【967233606030423†L239-L256】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.autowrx
+      project: Incubating
+- name: Service Controller
+  subcategories:
+  - name: System
+    items:
+    - name: Eclipse BlueChi
+      description: A deterministic multi‑node service controller written in C that
+        integrates with systemd via D‑Bus. It consists of a controller, agent and
+        command‑line tool and coordinates state transitions between services. BlueChi
+        monitors service changes and relies on a state manager to achieve the desired
+        end state【196263746276933†L239-L269】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.bluechi
+      project: Mature
+- name: Middleware
+  subcategories:
+  - name: Application
+    items:
+    - name: Eclipse Chariott
+      description: Provides a metadata‑driven middleware that abstracts in‑vehicle
+        functions, allowing developers to use modern programming models. It offers
+        a dynamic architecture to access vehicle hardware and sensors through a digital
+        representation of vehicle state and capabilities, simplifying continuous deployment
+        of new features【959966590147997†L240-L256】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.chariott
+      project: Incubating
+- name: Digital Twin
+  subcategories:
+  - name: Misc
+    items:
+    - name: Eclipse Ibeji
+      description: Uses the Digital Twins Definition Language (DTDL) to represent
+        vehicle state and capabilities, enabling developers to describe digital twins
+        of vehicles and functions. This digital‑twin approach simplifies development
+        of next‑generation software‑defined vehicle applications when combined with
+        programming models like Chariott【190944586739523†L240-L248】【190944586739523†L254-L260】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.ibeji
+      project: Incubating
+- name: Vehicle Abstraction
+  subcategories:
+  - name: Data
+    items:
+    - name: Eclipse KUKSA
+      description: Provides shared building blocks for software‑defined vehicles.
+        By abstracting vehicle data via common APIs, KUKSA avoids siloed development
+        and facilitates cross‑car function portability. It adapts various vehicle
+        interfaces and encourages collaboration on core ‘plumbing’ components so companies
+        can focus on customer‑facing features【266275628908022†L239-L267】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.kuksa
+      project: Incubating
+- name: Distribution
+  subcategories:
+  - name: Platform
+    items:
+    - name: Eclipse Leda
+      description: Integrates diverse SDV project components into a functional Linux‑based
+        distribution. Leda provides system image recipes, build scripts and documentation
+        to deliver a ready‑to‑use starting point for developers. The project aims
+        to form an ecosystem around SDV technologies and release a distribution every
+        few months【589602759199562†L239-L267】【589602759199562†L270-L277】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.leda
+      project: Incubating
+- name: Incubator
+  subcategories:
+  - name: Platform
+    items:
+    - name: Eclipse Leda Incubator
+      description: A repository for experimental components within the SDV ecosystem.
+        The incubator provides a place to explore innovations that may later be integrated
+        into the main Leda distribution【574034799210507†L239-L246】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.leda.incubator
+      project: Incubating
+- name: ROS
+  subcategories:
+  - name: Robotics
+    items:
+    - name: Eclipse Muto
+      description: An adaptive framework and runtime platform for dynamically composable,
+        model‑driven ROS software stacks. Key components include an agent that bridges
+        edge devices and digital twins via MQTT, a composer that manages ROS node
+        lifecycles, a dashboard for managing devices and stacks, and LiveUI micro‑frontend
+        architecture. Muto can introspect and manipulate ROS graphs and transport
+        telemetry using digital twins【643717732348091†L240-L337】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.muto
+      project: Incubating
+- name: Testing
+  subcategories:
+  - name: Simulation
+    items:
+    - name: Eclipse OpenXilEnv
+      description: A lightweight software‑in‑the‑loop and hardware‑in‑the‑loop environment
+        for running embedded software functions on a PC without target hardware. It
+        supports scenarios like SIL, MIL, HIL, network tests and digital twin tests.
+        Features include a GUI with display and calibration items, multi‑core support,
+        headless and remote automation modes, FMU support, residual bus simulation,
+        recording/replay and cross‑platform compatibility【397580322823818†L239-L299】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.openxilenv
+      project: Incubating
+  - name: Validation
+    items:
+    - name: Eclipse openDuT
+      description: Provides an open framework to automate testing and validation of
+        automotive software and applications. It offers a model language for test
+        cases, a reference test execution engine with open APIs, test management components,
+        a management service to orchestrate distributed hardware and emulated ECUs
+        over networks, and hardware abstraction for interaction with automotive networks.
+        Use cases include automated grey‑box tests, distributed test benches, security
+        test scenarios and integration of third‑party components【990078759384560†L239-L273】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.opendut
+      project: Incubating
+- name: Service Orchestration
+  subcategories:
+  - name: Misc
+    items:
+    - name: Eclipse Pullpiri
+      description: Develops a service orchestrator framework for in‑vehicle services
+        and applications. Pullpiri supports APIs for state transitions, ensures compatibility
+        between cloud workload manifests (e.g., Kubernetes) and vehicles (via BlueChi/SOAFEE),
+        and manages predefined scenarios and policies. It aims to reduce development
+        time for vehicle microservice deployment and integrates with other SDV projects【498169466523551†L285-L350】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.pullpiri
+      project: Incubating
+- name: Developer Tools
+  subcategories:
+  - name: Simulation
+    items:
+    - name: Eclipse SDV Developer Console
+      description: Provides a microservice‑based developer console and UI that manages
+        the lifecycle of in‑vehicle services, with a strong focus on simulation. It
+        includes services for development, testing, simulation and release management.
+        The console allows users to define scenarios, create simulation setups and
+        run simulations while integrating with third‑party tools to analyze results【772590131274543†L298-L337】【772590131274543†L372-L385】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.dco
+      project: Incubating
+- name: Core Stack
+  subcategories:
+  - name: Safety
+    items:
+    - name: Eclipse Safe Open Vehicle Core (S‑CORE)
+      description: Aims to develop an open‑source core stack for software‑defined
+        vehicles targeting embedded high‑performance ECUs with multiple processors.
+        The project emphasises compliance with safety standards like ISO 26262 and
+        cybersecurity standards (ISO/SAE 21434, UNECE WP.29) and designs a modular,
+        extensible architecture. It seeks a common full‑stack runtime to address shared
+        industry problems, accelerate development through open source, decouple hardware
+        and software and support modern languages such as Rust and C++【17245967202157†L239-L297】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.score
+      project: Incubating
+- name: RTOS
+  subcategories:
+  - name: Operating System
+    items:
+    - name: Eclipse ThreadX
+      description: A suite of embedded runtime components including ThreadX, an advanced
+        real‑time operating system for deeply embedded applications; NetX Duo, an
+        industrial‑grade TCP/IP stack; FileX, a FAT‑compatible file system integrated
+        with ThreadX; GUIX for embedded GUIs; USBX for USB host/device support; LevelX
+        for flash wear leveling; and TraceX for visualizing real‑time events【592770292896143†L240-L257】.
+        ThreadX provides reliable, ultra‑fast performance and is published under a
+        permissive license.
+      homepage_url: https://projects.eclipse.org/projects/iot.threadx
+      project: Incubating
+- name: Toolchain
+  subcategories:
+  - name: Development
+    items:
+    - name: Eclipse Velocitas
+      description: Provides an end‑to‑end, scalable and modular open‑source toolchain
+        for developing containerised and non‑containerised in‑vehicle applications.
+        It aims to accelerate software‑defined vehicles by offering a comfortable,
+        fast development environment in an open ecosystem, fostering de‑facto standards
+        and building a community of developers and stakeholders【136181984292318†L239-L258】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.velocitas
+      project: Incubating
+- name: Communication
+  subcategories:
+  - name: Protocol
+    items:
+    - name: Eclipse Zenoh
+      description: A communication stack designed to minimize network overhead, support
+        extremely constrained devices and devices with low duty cycles, and provide
+        abstractions for distributing, querying and storing data with very low latency
+        and high throughput【577911033527672†L239-L244】.
+      homepage_url: https://projects.eclipse.org/projects/iot.zenoh
+      project: Incubating
+    - name: Eclipse uProtocol
+      description: Defines a transport‑agnostic, layered communication protocol that
+        is independent of deployment, operating system and device type. uProtocol
+        builds on existing automotive and Internet standards and provides specifications,
+        SDKs and reference implementations to connect automotive apps and services
+        from the mechatronic layer up to the cloud. The protocol comprises application,
+        communication and transport layers and currently supports multiple programming
+        languages and implementations (MQTT, Zenoh, vsomeip and others)【590085810293841†L239-L279】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.uprotocol
+      project: Incubating
+  - name: Middleware
+    items:
+    - name: Eclipse eCAL (enhanced Communication Abstraction Layer)
+      description: A middleware that enables scalable, high‑performance inter‑process
+        communication on a single computer or across networks. eCAL uses publish‑subscribe
+        and server‑client patterns and supports intraprocess, interprocess and interhost
+        communication; different transport layers (shared memory, UDP, TCP); standard
+        message protocols (Protobuf, FlatBuffers, Cap’n Proto); multiple language
+        bindings; and tools for monitoring, recording and replay【221874082744295†L239-L256】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.ecal
+      project: Incubating
+    - name: Eclipse p3com
+      description: A pluggable, portable publish/subscribe communication middleware
+        that enables arbitrary communication interfaces through a high‑level API while
+        exploiting full hardware capabilities. It uses a modular transport layer architecture
+        based on Eclipse iceoryx and supports Linux and FreeRTOS. p3com integrates
+        seamlessly into existing middleware projects and primarily supports publish/subscribe
+        communication while also benefiting from request/response patterns【476375818642197†L239-L257】.
+      homepage_url: https://projects.eclipse.org/projects/automotive.p3com
+      project: Incubating
+- name: Basic Software
+  subcategories:
+  - name: BSW
+    items:
+    - name: Eclipse OpenBSW
+      description: Provides an embedded basic software stack for microcontrollers
+        written in C++ (up to C++14) to develop flexible and modern automotive applications.
+        OpenBSW includes libraries for lifecycle management, communication (CAN, DoCAN,
+        UDS), a simple OS abstraction layer (FreeRTOS implementation provided), STL‑like
+        containers, I/O and developer tools. It plans to add support for Ethernet
+        and other protocols and includes a demo application for POSIX and NXP S32K148EVB【548662673011746†L274-L301】.
+      homepage_url: https://projects.eclipse.org/proposals/eclipse-openbsw
+      project: Proposal
