@@ -30,18 +30,16 @@ featured_items:
 
 footer:
   links:
-    facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
-    flickr: "https://www.flickr.com/photos/143247548@N03/albums"
-    github: "https://github.com/cncf"
-    homepage: "https://cncf.io"
-    instagram: "https://www.instagram.com/humans.of.cloudnative/"
-    linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
-    slack: "https://slack.cncf.io/"
-    twitch: "https://www.twitch.tv/cloudnativefdn"
-    twitter: "https://twitter.com/cloudnativefdn"
-    wechat: "https://www.cncf.io/wechat/"
-    youtube: "https://www.youtube.com/c/cloudnativefdn"
-  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
+    facebook: "https://www.facebook.com/--"
+    flickr: "https://www.flickr.com/people/108559379@N08/"
+    github: "https://github.com/enterprises/eclipse-foundation/organizations"
+    homepage: "https://sdv.eclipse.org/"
+    instagram: "https://www.instagram.com/eclipsesdv/"
+    linkedin: "https://www.linkedin.com/company/software-defined-vehicle/"
+    slack: "https://join.slack.com/t/sdvworkinggroup/shared_invite/zt-3c5ied1nk-Mk87s4kOX7ipcNo_VktlWg"
+    twitter: "https://x.com/SDVeclipse/"
+    youtube: "https://www.youtube.com/@EclipseFdn"
+  logo: "https://sdv.eclipse.org/images/logo/sdv-logo-color.svg"
 
 grid_items_size: large
 
@@ -56,7 +54,7 @@ groups:
 
 header:
   links:
-    github: "https://github.com/cncf/landscape2"
-  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
+    github: "https://github.com/enterprises/eclipse-foundation/organizations"
+  logo: "https://sdv.eclipse.org/images/logo/sdv-logo-color.svg"
 
 screenshot_width: 1500
