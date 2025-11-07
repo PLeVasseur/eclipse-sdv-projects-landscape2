@@ -3,6 +3,7 @@
 # This file contains the data that will be used to generate the landscape.
 #
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+#
 
 categories:
 - name: User Interface
