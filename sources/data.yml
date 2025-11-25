@@ -1,5 +1,5 @@
 categories:
-- name: Category 1
+- name: Unknown
   subcategories:
   - name: Misc
     items:
@@ -36,6 +36,23 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-arche/arche
       logo: arche_splash.png
+    - name: Eclipse Automotive API Framework
+      description: Decoupling of the application logic from the basic software stack
+        enables automotive suppliers (no matter if Tier-1 or in-house teams at an
+        OEM) to contribute with building blocks to Software-defined...
+      homepage_url: https://projects.eclipse.org/projects/automotive.autoapiframework
+      project: Incubating
+      repo_url: https://github.com/eclipse-autoapiframework/.github
+      logo: AutoApiLogo.png
+    - name: Eclipse Automotive Integration for AutoSD
+      description: 'Eclipse Automotive Integration for AutoSD uses an AutoSD image,
+        built and tailored for its community, to run and test both Eclipse SDV projects
+        and blueprints.
+
+        Eclipse Automotive Integration for...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.autosd
+      project: Incubating
+      logo: incubating.png
     - name: Eclipse Autowrx
       description: Eclipse Autowrx is the open source implementation of digital.auto
         (http://digital.auto), an industry-wide initiative enabling the automotive
@@ -158,6 +175,26 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-opendut/.github
       logo: logo_light.png
+    - name: Eclipse OpenSOVD
+      description: Eclipse OpenSOVD provides an open source implementation of the
+        Service-Oriented Vehicle Diagnostics (SOVD) standard, as defined in ISO 17978.
+        The project delivers a modular, standards-compliant...
+      homepage_url: https://projects.eclipse.org/projects/automotive.opensovd
+      project: Incubating
+      repo_url: https://github.com/eclipse-opensovd/.github
+      logo: incubating.png
+    - name: Eclipse Open Vehicle API
+      description: 'The Eclipse Open Vehicle API contains tools and a runtime to create
+        a vehicle abstraction interface for signal- and event-driven functions. 
+
+
+        Component-based
+
+        Transfer existing signal-based ECUs to HPC...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.openvehicle-api
+      project: Incubating
+      repo_url: https://github.com/eclipse-openvehicle-api/openvehicle-api
+      logo: Open_Vehicle_API_v1_white_cropped.jpg
     - name: Eclipse OpenXilEnv
       description: 'Eclipse OpenXilEnv is a lightweight SIL/HIL environment that allows
         running embedded software functions on a PC without a target platform and
@@ -199,7 +236,7 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.score
       project: Incubating
       repo_url: https://github.com/eclipse-score/.github
-      logo: incubating.png
+      logo: S_CORE_logo.png
     - name: Eclipse SDV Blueprints
       description: The Eclipse SDV Blueprints project hosts different blueprints of
         how to apply technologies developed in the scope of the projects of the Eclipse
@@ -208,6 +245,14 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-sdv-blueprints/.github
       logo: blueprints.png
+    - name: 'Eclipse SDV-LVL '
+      description: Just as the SAE Levels of Autonomy helped to level-set discussion
+        on autonomous driving, the Eclipse SDV-LVL defines a common terminology/taxonomy
+        for capabilities of SDV. In the field of highly...
+      homepage_url: https://projects.eclipse.org/projects/automotive.sdv-lvl
+      project: Incubating
+      repo_url: https://github.com/eclipse-sdv-lvl/.github
+      logo: incubating.png
     - name: Eclipse SommR
       description: 'Eclipse SommR provides an automotive grade implementation of the
         SomeIP specification for embedded Linux systems together with the required
@@ -235,6 +280,14 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-velocitas/.github
       logo: logo_02_rgb_0.png
+    - name: Eclipse CANought
+      description: Eclipse CANought offers the automotive-specific capabilities to
+        enhance the Eclipse Kanto project to offer a comprehensive solution focused
+        on the automotive industry. Eclipse CANought provides...
+      homepage_url: https://projects.eclipse.org/projects/iot.kanto.canought
+      project: Incubating
+      repo_url: https://github.com/eclipse-canought/.github
+      logo: incubating.png
     - name: Eclipse Symphony
       description: Eclipse Symphony enables end-to-end orchestration experience and
         addresses it as a distinct concern. Its objective is to provide an easy-to-adopt,
@@ -263,3 +316,27 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-zenoh/.github
       logo: Zenoh%20-%20icon%20-%20dark.png
+    - name: Eclipse iceoryx
+      description: In domains like automotive, robotics or gaming, a huge amount of
+        data must be transferred between different parts of the system. If these parts
+        are actually different processes on a POSIX based...
+      homepage_url: https://projects.eclipse.org/projects/technology.iceoryx
+      project: Regular
+      repo_url: https://github.com/eclipse-iceoryx/.github
+      logo: iceoryx-Logo-01.png
+    - name: Eclipse LMOS
+      description: The Eclipse LMOS project (Language Model Operating System) is essentially
+        a platform for building and running AI systems that can handle complex tasks.
+        Imagine it like an operating system for your...
+      homepage_url: https://projects.eclipse.org/projects/technology.lmos
+      project: Incubating
+      repo_url: https://github.com/eclipse-lmos/.github
+      logo: lmos.png
+    - name: Eclipse Trustable Software Framework
+      description: 'The focus of the Eclipse Trustable Software Framework project
+        is practical approaches to understanding risks in software engineering. 
+
+        Describing and quantifying these risks requires a scalable...'
+      homepage_url: https://projects.eclipse.org/projects/technology.tsf
+      project: Incubating
+      logo: trustable-logo-square.png
