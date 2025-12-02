@@ -1,0 +1,79 @@
+categories:
+  - name: Tooling Devops
+    subcategories:
+      - name: Design
+        items:
+          - Eclipse ArchE
+      - name: Development
+        items:
+          - Eclipse Autowrx
+          - Eclipse SDV Developer Console
+          - Eclipse Velocitas
+          - Eclipse Open Vehicle API
+      - name: Testing & Validation
+        items:
+          - Eclipse OpenXilEnv
+          - Eclipse openDuT
+      - name: Deployment
+        items:
+          - Eclipse Muto
+      - name: Process & Frameworks
+        items:
+          - Eclipse Trustable Software Framework
+  - name: Distributions and Frameworks
+    subcategories:
+      - name: Distributions
+        items:
+          - Eclipse Leda
+          - Eclipse Leda Incubator
+          - Eclipse OpenBSW
+          - Eclipse Safe Open Vehicle Core
+          - Eclipse Automotive API Framework
+          - Eclipse Automotive Integration for AutoSD
+          - Eclipse SDV Blueprints
+  - name: RTOS
+    subcategories:
+      - name: RTOS
+        items:
+          - Eclipse ThreadX
+  - name: Example Applications
+    subcategories:
+      - name: Example Applications
+        items:
+          - Eclipse Ambient Light Services
+          - Eclipse Muto
+          - Eclipse ADAAA (Adaptive Cruise Control Demo Application for Adaptive AUTOSAR)
+  - name: Service Fabric and Communication
+    subcategories:
+      - name: Middleware & Frameworks
+        items:
+          - Eclipse p3com
+          - Eclipse eCAL (enhanced Communication Abstraction Layer)
+          - Eclipse Kuksa
+          - Eclipse Chariott
+          - Eclipse Zenoh
+          - Eclipse Heimlig
+      - name: Communication Protocols
+        items:
+          - Eclipse CANought
+          - Eclipse iceoryx
+      - name: Service Mesh
+        items:
+          - Eclipse uProtocol
+          - Eclipse OpenSOVD
+      - name: Digital Twin
+        items:
+          - Eclipse Ibeji
+  - name: Runtime and Orchestration
+    subcategories:
+      - name: Workload & Container Orchestration
+        items:
+          - Eclipse Pullpiri
+          - Eclipse Ankaios
+          - Eclipse Symphony
+          - Eclipse BlueChi™
+  - name: AI
+    subcategories:
+      - name: AI
+        items:
+          - Eclipse LMOS

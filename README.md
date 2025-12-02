@@ -38,8 +38,11 @@ docker compose --env-file .env.latest run --rm l2-build
 
 [Landscape2]: https://github.com/cncf/landscape2
 
-# Collect new data from Eclipse Projects API 
+# Collect new data from Eclipse Projects API (with static categories)
 Hint: execute in the root folder
+Modifiy the static_categories.yml to map all the projects static. 
 ```shell
-python ./tools/generate_data.py 
+python ./tools/generate_data_static.py --categories static_categories.yml --output data.yml 
 ```
+
+
