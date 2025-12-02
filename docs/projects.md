@@ -23,6 +23,7 @@
 [eclipse lmos](https://projects.eclipse.org/projects/technology.lmos) | Incubating |  |  |  |  |  | 0 |  |
 [eclipse moec](https://projects.eclipse.org/projects/automotive.moec) | Archived |  |  |  |  |  | 0 |  |
 [eclipse muto](https://projects.eclipse.org/projects/automotive.muto) | Incubating |  |  |  |  |  | 0 |  |
+[eclipse muto](https://projects.eclipse.org/projects/automotive.muto) | Incubating |  |  |  |  |  | 0 |  |
 [eclipse open vehicle api](https://projects.eclipse.org/projects/automotive.openvehicle-api) | Incubating |  |  |  |  |  | 0 |  |
 [eclipse openbsw](https://projects.eclipse.org/projects/automotive.openbsw) | Incubating |  |  |  |  |  | 0 |  |
 [eclipse opendut](https://projects.eclipse.org/projects/automotive.opendut) | Incubating |  |  |  |  |  | 0 |  |

@@ -4,7 +4,7 @@
 #
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
 
-foundation: DEMO
+foundation: Eclipse SDV
 
 url: http://127.0.0.1:8000
 
@@ -19,7 +19,7 @@ colors:
   color6: "rgba(0, 42, 81, 0.7)"
   color7: "rgba(180, 219, 255, 1)"
 
-description: Demo landscape for local development.
+description: Eclipse SDV
 
 featured_items:
   - field: maturity
@@ -44,13 +44,16 @@ footer:
 grid_items_size: large
 
 groups:
-  - name: Some categories
+  - name: SDV Projects
     categories:
-      - Category 1
-      - Category 2
-  - name: Only category 2
-    categories:
-      - Category 2
+      - Tooling Devops
+      - Distributions and Frameworks
+      - RTOS
+      - Example Applications
+      - Service Fabric and Communication
+      - Runtime and Orchestration
+      - AI
+      - Unmapped
 
 header:
   links:
